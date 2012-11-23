@@ -8,7 +8,7 @@ Snippets of code for the google map based ASP.NET service
 
 To use the windfarm marker-images in google maps, include code like this:
 
-var map = new google.maps.Map(document.getElementById("map"), {
+    var map = new google.maps.Map(document.getElementById("map"), {
         zoom: 4,
         center: <give some position>,
         mapTypeId: google.maps.MapTypeId.ROADMAP
@@ -47,10 +47,10 @@ var map = new google.maps.Map(document.getElementById("map"), {
 
 
 	...
-}
+
 Then the maker can then be defined like this:
 
-var marker = new google.maps.Marker({
+     var marker = new google.maps.Marker({
             position: <initial position>
             draggable: true,
             raiseOnDrag: false,
